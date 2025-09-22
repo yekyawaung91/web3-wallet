@@ -217,16 +217,7 @@ export default function Web3WalletDashboard() {
                 <Moon className="w-4 h-4" />
               </div>
               
-              {isConnected && (
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={() => window.open('https://docs.mgx.dev', '_blank')}
-                >
-                  <ArrowUpRight className="w-4 h-4 mr-2" />
-                  Docs
-                </Button>
-              )}
+              
             </div>
           </div>
         </div>
